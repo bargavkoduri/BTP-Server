@@ -10,8 +10,8 @@ const fs = require("fs");
 const crypto = require("crypto");
 
 // FL parameters
-const number_of_required_nodes = 5;
-const clients_percentage = 0.4;
+const number_of_required_nodes = 10;
+const clients_percentage = 0.2;
 const required_percentage = 99.5;
 const numberOfRounds = 200;
 
