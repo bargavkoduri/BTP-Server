@@ -1,1 +1,4 @@
 /node_modules
+model_config.json
+model_weights.txt
+__pycache__
