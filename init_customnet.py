@@ -4,7 +4,6 @@ from tensorflow.keras.layers import MaxPooling2D,SeparableConv2D, Input, Conv2D,
 from tensorflow.keras import initializers
 from tensorflow.keras import regularizers
 from helper import encode_weights,write_to_file
-from keras.utils import plot_model
 
 def residual_block(x, channels, stride=1, weight_decay=5e-4,max_pool=True):
     ki = initializers.he_normal(seed=9)

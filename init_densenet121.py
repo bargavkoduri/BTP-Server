@@ -16,7 +16,7 @@ for layer in densenet.layers[:-5]:
 model = densenet.output
 model = Dropout(0.5)(model)
 model = GlobalAveragePooling2D()(model)
-model = Dense(5,activation = 'softmax')(model)
+model = Dense(12,activation = 'softmax')(model)
 
 model = Model(densenet.input,model)
 
