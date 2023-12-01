@@ -13,7 +13,7 @@ const crypto = require("crypto");
 const number_of_required_nodes = 5;
 const clients_percentage = 0.4;
 const required_percentage = 99.5;
-const numberOfRounds = 300;
+const numberOfRounds = 200;
 
 let started_training = false;
 let round = 0;
