@@ -45,7 +45,7 @@ const select_clients = (num, range) => {
   const selected_clients = [];
   const s = new Set();
   while (s.size < num) {
-    s.add(getRandomNumber(0, range - 1));
+    s.add(getRandomNumber(0, range));
   }
   console.log(`\nSelected clients for round ${round}`);
   for (let ele of s) {
