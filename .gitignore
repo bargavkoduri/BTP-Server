@@ -2,3 +2,6 @@
 model_config.json
 model_weights.txt
 __pycache__
+best_model_*
+test
+global_train

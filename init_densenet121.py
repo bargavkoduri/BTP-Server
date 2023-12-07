@@ -4,7 +4,6 @@ from keras import regularizers
 from tensorflow.keras.models import Model
 from helper import encode_weights, write_to_file
 
-# Load the MobileNetV2 model with pre-trained weights
 densenet = DenseNet121(weights='imagenet',include_top = False ,input_shape=(224, 224, 3))
 for layer in densenet.layers[:-5]:
     layer.trainable = False
