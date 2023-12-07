@@ -27,7 +27,6 @@ def encode_weights(weights):
 def ReadandProcessData(path):
     root_dir = '{}'.format(path)
     class_labels = os.listdir(root_dir)
-    print(class_labels)
     images = []
     labels = []
     target_width = 224
