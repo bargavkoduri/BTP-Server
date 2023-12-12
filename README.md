@@ -14,10 +14,9 @@ To install other dependencies type
 # Usage
 1) Run the below command to initialiaze the model : <br/>
    ```python init_model.py```
-<br/>You can tweek the neural network by editing the init_model.py file.<br/>
-The current network accepts monochrome images of 125x125 for 10 class classification. 
+<br/>You can tweek the neural network by editing the init_model-name.py file.<br/>
 
 3) Run ```node server.js``` to start the server <br/>
 <br/>
-You can change the number of clients required to start the process and client percentage and accuracy at which the process stops in server.js file. The process stops as soon as Accuracy reaches 95%.
+You can change the number of clients required to start the process and client percentage and accuracy at which the process stops in server.js file.
 You can stop it at any time by killing the process. It stores best model (model with highest accuracy acheived till now).
